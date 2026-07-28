@@ -10,6 +10,8 @@ TagManager:
   - InteractableUI
   - SelectableObject
   - Selectable
+  - Gizmo
+  - SelectionManager
   layers:
   - Default
   - TransparentFX

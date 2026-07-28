@@ -43,12 +43,12 @@ public class SandboxObject : MonoBehaviour
         if (isSelected)
         {
             Debug.Log("[SBO] Object selected");
-            objRender.material.color = objColorSelected;
+            objRender.material.color = objColorSelected; //has to be an outline
         }
         else if (!isSelected)
         {
             Debug.Log("[SBO] Object unselected");
-            objRender.material.color = objColorUnselected;
+            objRender.material.color = objColorUnselected; //too
         }
     }
 

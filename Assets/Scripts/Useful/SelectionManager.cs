@@ -71,4 +71,9 @@ public class SelectionManager : MonoBehaviour
         return hitObject;
     }
     
+    public Vector3 GetPosition()
+    {
+        return hitObject.transform.position;
+    }
+    
 }
