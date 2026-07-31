@@ -147,7 +147,7 @@ MonoBehaviour:
   rot: {x: 0, y: 0, z: 0, w: 0}
   mode: {fileID: 0}
   isSelected: 0
-  objRender: {fileID: 0}
+  objRender: {fileID: 8636239947353062701}
   objColorSelected: {r: 0, g: 0, b: 0, a: 0}
   objColorUnselected: {r: 0, g: 0, b: 0, a: 0}
 --- !u!54 &5672565102372174121

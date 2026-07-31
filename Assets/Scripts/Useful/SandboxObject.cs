@@ -18,6 +18,8 @@ public class SandboxObject : MonoBehaviour
     
     public void Start()
     {
+        mode = GameObject.FindWithTag("modeManager").GetComponent<SwitchMode>();
+        
         pos = obj.transform.position;
         rot = obj.transform.rotation;
         rb = obj.GetComponent<Rigidbody>();

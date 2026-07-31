@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Spawn(int which)
     {
-        if (!mode)
+        if (!mode.GetMode())
         {
             camera_Em = GameObject.FindWithTag("CameraEm");
             Instantiate(objectsForSpawn[which], 

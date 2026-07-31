@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class GizmoSpawner : MonoBehaviour
@@ -6,29 +5,37 @@ public class GizmoSpawner : MonoBehaviour
     [SerializeField] private SelectionManager selectionManager;
     [SerializeField] private GameObject gizmoPrefab;
 
-    private SandboxObject obj;
-    private GameObject gizmo;
+    private SandboxObject currentObject;
+    private GameObject currentGizmo;
 
-    private void Update()
+    void Update()
     {
         SandboxObject selected = selectionManager.GetSelectedObject();
 
-        if (selected != obj)
+        // Selection changed
+        if (selected != currentObject)
         {
-            if (gizmo != null)
-                Destroy(gizmo);
-            
-            obj = selected;
+            // Remove old gizmo
+            if (currentGizmo != null)
+                Destroy(currentGizmo);
 
-            if (obj != null)
+            currentObject = selected;
+
+            // Create new gizmo
+            if (currentObject != null)
             {
-                gizmo = Instantiate(gizmoPrefab, obj.GetPosition(), Quaternion.identity);
+                currentGizmo = Instantiate(
+                    gizmoPrefab,
+                    currentObject.GetPosition(),
+                    Quaternion.identity
+                );
             }
         }
-        
-        if (gizmo != null && obj != null)
+
+        // Keep gizmo following the object
+        if (currentGizmo != null && currentObject != null)
         {
-            gizmo.transform.position = obj.GetPosition();
+            currentGizmo.transform.position = currentObject.GetPosition();
         }
     }
 }
