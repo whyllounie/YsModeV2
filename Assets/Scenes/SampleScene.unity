@@ -5156,6 +5156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectionManager: {fileID: 491570319}
   gizmoPrefab: {fileID: 6066223726958529906, guid: 9188663b48703c74bbc489ef04379413, type: 3}
+  Camera: {fileID: 1938027065}
+  gizmoScale: 0.08
 --- !u!4 &1514838398
 Transform:
   m_ObjectHideFlags: 0
