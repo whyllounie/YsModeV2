@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GizmoSpawner : MonoBehaviour
+public class GizmoSpawner_my : MonoBehaviour
 {
     [SerializeField] private SelectionManager selectionManager;
     [SerializeField] private GameObject gizmoPrefab;

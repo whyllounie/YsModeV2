@@ -100,14 +100,17 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3530324331628865804}
+      addedObject: {fileID: 6229833968838717536}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8903330444931310164}
   m_SourcePrefab: {fileID: 100100000, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
 --- !u!1 &328248141778380044 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
   m_PrefabInstance: {fileID: 598769996858710109}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3530324331628865804
+--- !u!114 &6229833968838717536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,11 +119,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 328248141778380044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c24bfc14b54e20c4ba3336eeee886de9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5006a177bd77bf44d9be9bc1a8820f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handleAxis: 0
-  selectionManager: {fileID: 0}
+  axis: 0
+--- !u!65 &8903330444931310164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328248141778380044}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 4.5, z: 0.5}
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!4 &1136590865252335542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
@@ -192,14 +215,17 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 57944230500247117}
+      addedObject: {fileID: 4323305775262019316}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5055145599532187157}
   m_SourcePrefab: {fileID: 100100000, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
 --- !u!1 &5126893028239160618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
   m_PrefabInstance: {fileID: 5469353304764057723}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &57944230500247117
+--- !u!114 &4323305775262019316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,11 +234,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 5126893028239160618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c24bfc14b54e20c4ba3336eeee886de9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5006a177bd77bf44d9be9bc1a8820f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handleAxis: 2
-  selectionManager: {fileID: 0}
+  axis: 2
+--- !u!65 &5055145599532187157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126893028239160618}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 4.5, z: 0.5}
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!4 &5507254350464905104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
@@ -284,14 +330,17 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3801762213372191315}
+      addedObject: {fileID: 1332208034517661743}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4969493593411122047}
   m_SourcePrefab: {fileID: 100100000, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
 --- !u!1 &8394584931976583401 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
   m_PrefabInstance: {fileID: 8700645882640639416}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3801762213372191315
+--- !u!114 &1332208034517661743
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,11 +349,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 8394584931976583401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c24bfc14b54e20c4ba3336eeee886de9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5006a177bd77bf44d9be9bc1a8820f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handleAxis: 1
-  selectionManager: {fileID: 0}
+  axis: 1
+--- !u!65 &4969493593411122047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8394584931976583401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 4.5, z: 0.5}
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!4 &9166054669410091603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8708df9c0c462e49b616e8890ce14f9, type: 3}
