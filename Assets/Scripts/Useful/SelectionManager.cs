@@ -8,7 +8,7 @@ public class SelectionManager : MonoBehaviour
 
     private SandboxObject currentSelectedObject;
 
-    public SandboxObject hitObject;
+    private SandboxObject hitObject;
     
     private void Update()
     {

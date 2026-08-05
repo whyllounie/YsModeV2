@@ -13,6 +13,9 @@ TagManager:
   - Gizmo
   - SelectionManager
   - modeManager
+  - Y
+  - Z
+  - X
   layers:
   - Default
   - TransparentFX
