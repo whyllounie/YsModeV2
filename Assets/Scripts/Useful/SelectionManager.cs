@@ -71,4 +71,35 @@ public class SelectionManager : MonoBehaviour
         return hitObject;
     }
     
+<<<<<<< Updated upstream
+=======
+    public Vector3 GetPosition()
+    {
+        return hitObject.transform.position;
+    }
+    
+    public Vector3 GetCentralPosition()
+    {
+        Renderer objRenderer = hitObject.GetComponent<Renderer>();
+        return objRenderer.bounds.center;
+    }
+
+    public Quaternion GetRotation()
+    {
+        return hitObject.transform.rotation;
+    }
+
+    public bool IsSelected()
+    {
+        if (hitObject)
+        {
+            return true;
+        }
+        
+        else
+        {
+            return false;
+        }
+    }
+>>>>>>> Stashed changes
 }

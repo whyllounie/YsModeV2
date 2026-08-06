@@ -11,7 +11,7 @@ public class SandboxObject : MonoBehaviour
     public SwitchMode mode;
     // public Vector3 scale;
     
-    [SerializeField] public bool isSelected;
+    public bool isSelected;
     [SerializeField] private Renderer objRender;
     [SerializeField] private Color objColorSelected;
     [SerializeField] private Color objColorUnselected;
@@ -71,5 +71,6 @@ public class SandboxObject : MonoBehaviour
     {
         return obj.name;
     }
+    
 }
 
